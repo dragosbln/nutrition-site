@@ -1,0 +1,48 @@
+.myForm{
+    max-width: 50%;
+    background-color:#0004;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.disclaimer{
+    font-size: 0.75rem;
+    text-align: start;
+}
+
+@media(max-width:1200px){
+    .myForm{
+        max-width: 66%;
+        width: 66%;
+        margin-left: 16.5%;
+    }
+}
+
+@media(max-width:882px){
+    .myForm{
+        max-width: 80%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 85px;
+
+    }
+}
+
+@media(max-width:600px){
+    .myForm{
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.btn-lg {
+    display: block;
+    margin: 5px auto;
+}

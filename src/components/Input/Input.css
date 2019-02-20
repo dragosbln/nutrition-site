@@ -1,0 +1,54 @@
+.emphasizedNormal{
+    -webkit-text-stroke: 1px black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: end;
+  }
+
+.invalid{
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+.errMsg{
+    color: red;
+    font-size: 12px;
+    display: none;
+    text-align: start
+}
+
+.showErr{
+    display: block;
+}
+
+.normalInput{
+    width: 70%;
+}
+
+.smallInput{
+    width: 15%;
+}
+
+textarea.form-control{
+    height: 100px;
+}
+
+@media(max-width:1000px){
+    .smallInput{
+        width: 20%;
+    }
+}
+
+@media(max-width:575px){
+    .emphasizedNormal{
+        text-align: center;
+    }
+    .normalInput{
+        width: 90%;
+        margin: auto;
+    }
+    .smallInput{
+        width: 25%;
+        margin: auto;
+    }
+}

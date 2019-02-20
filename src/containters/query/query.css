@@ -1,0 +1,70 @@
+/* .mQuery{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: #0004;
+    padding: 12px;
+  } */
+
+.ageLabel{
+-webkit-text-stroke: 1px black;
+font-size: 1.2rem;
+font-weight: bold;
+text-align: end;
+}
+
+.ageControl{
+    max-width: 15%;
+}
+  
+/* @media(max-width:1000px){
+    .mQuery{
+        max-width: 66%;
+        width: 66%;
+        margin-left: 16.5%;
+        margin-top: 70px;
+    }
+}
+
+@media(max-width:800px){
+    .mQuery{
+        max-width: 80%;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:600px){
+    .mQuery{
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .ageGroup{
+        margin: auto;
+    }
+    .ageControl{
+        max-width: 25%;
+    }
+} */
+
+@media(max-width:2000px){
+    .mQuery{
+        margin-top: 75px;
+    }
+}
+
+
+@media(max-width:600px){
+    .ageGroup{
+        margin: auto;
+    }
+    .ageControl{
+        max-width: 25%;
+    }
+}

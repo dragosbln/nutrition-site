@@ -1,0 +1,39 @@
+/* .mAbout{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: #0004;
+    padding: 12px;
+}
+
+@media(max-width:1000px){
+    .mAbout{
+      width: 70%;
+      margin: 15% 15%;
+    }
+  }
+  @media(max-width:800px){
+    .mAbout{
+      width: 80%;
+      margin: 15% 10%;
+    }
+  }
+
+
+  @media(max-width:600px){
+    .mAbout{
+      width: 90%;
+      margin: 75px 5%;
+    }
+  } */
+
+  @media(min-width:1000px){
+    .mAbout{
+      margin-top: 10%;
+    }
+  }

@@ -1,0 +1,42 @@
+/* .mContact{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: #0004;
+    padding: 12px;
+  } */
+
+.msgContainer{
+    height: 200px;
+}
+  
+  /* @media(max-width:1000px){
+    .mContact{
+      width: 70%;
+      margin: 15% 15%;
+    }
+  }
+  @media(max-width:800px){
+    .mContact{
+      width: 80%;
+      margin: 15%s 10%;
+    }
+  }
+
+
+  @media(max-width:600px){
+    .mContact{
+      width: 90%;
+      margin: 75px 5%;
+    }
+  } */
+
+  @media(min-width: 1000px){
+    .mContact{
+      margin-top: 12%;
+    }
+  }

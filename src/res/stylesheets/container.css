@@ -1,0 +1,36 @@
+.mContainer{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 12%;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: #0004;
+    padding: 12px;
+  }
+
+  @media(max-width:1000px){
+    .mContainer{
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 20%;
+    }
+  }
+  @media(max-width:800px){
+    .mContainer{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 25%;
+    }
+  }
+
+
+  @media(max-width:600px){
+    .mContainer{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 30%;
+    }
+  }

@@ -1,0 +1,26 @@
+
+
+.shareBtn{
+    display: inline-block;
+    margin: 5% 5%;
+}
+.shareBtn:hover{
+    cursor: pointer;
+}
+
+/* @media(max-width:1000px){
+    #share{
+    }
+}
+
+@media(max-width:800px){
+    #share{
+        margin-top: 25%;
+    }
+}
+
+@media(max-width:600px){
+    #share{
+        margin-top: 30%;
+    }
+} */

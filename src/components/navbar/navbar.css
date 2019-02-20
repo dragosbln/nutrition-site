@@ -1,0 +1,57 @@
+.mNavbar{
+    background-color: #000a;
+}
+
+.navbar-collapse.show{
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-collapse.collapsing{
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-collapse.collapsing a{
+    text-align: center;
+}
+
+.navbar-collapse.show a {
+    text-align: center;
+}
+
+.navbar-collapse.links{
+    background-color: #333;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.active{
+    border-top: 1px solid #888;
+    border-radius: 5px;
+    border-bottom: 1px solid #888
+}
+
+.navbar-dark .navbar-brand{
+    color: #ccc;
+    font-weight: bold;
+}
+
+.nav-link{
+    width: 100%;
+    display: flex;
+}
+
+@media(max-width: 575px){
+    .nav-link{
+        display: block;
+    }
+}
+
+.navbar-expand-sm  .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
